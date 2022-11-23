@@ -17,9 +17,11 @@ So we have 180 features that we have extracted from "extract_feature" function.
 
 So I have created a two MLPClassifier models:
 ### First Model : 
+
 ![mlp_model](https://user-images.githubusercontent.com/67755812/203573516-94556cb7-cdcd-4c32-97ce-c5e1dd8ab18e.PNG)
 
 As we can see the batch_size =256, and hidden_layer_sizes=(300,) and epsilon=1e-08. As it has only one hidden layer the score of the model is 94.9% and accuracy is 72.92%. The loss value also decreases after 175, it would decrease more and get constant.
+
 ![model](https://user-images.githubusercontent.com/67755812/203573672-274cc9e8-77a1-4141-a4f4-6e722b22ab2b.png)
 
 
