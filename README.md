@@ -1,5 +1,9 @@
 # Speech Emotion Recognition
 
+![emotion](https://user-images.githubusercontent.com/67755812/204617857-914de4c1-c303-4d7a-98ea-518987cae2a5.gif)
+
+
+
 <b> Dataset Link: https://www.kaggle.com/code/hrugvedkolhe/speech-emotion/data </b>
 
 In the project, I have build a Deep Learning model that is trained on emotion dataset or better yet speech emotion classification through audio data. We have an extract_feature function which is using some other functions to extract different information from the audio file. We use the MLPClassifier which stands for Multi-Layer Perceptron classifier. 
