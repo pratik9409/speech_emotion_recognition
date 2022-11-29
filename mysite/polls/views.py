@@ -56,7 +56,7 @@ def transform_data(file_path):
 
 def extract_feature(file_name, mfcc, chroma, mel):
     with soundfile.SoundFile(file_name) as sound_file:
-        print('this block is working')
+        print('This block is working')
         X = sound_file.read(dtype="float32")
         sample_rate = sound_file.samplerate
         if chroma:
